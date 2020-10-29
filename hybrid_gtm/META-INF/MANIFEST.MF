@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TestMain
+Bundle-SymbolicName: TestMain
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: TestMain.jar,
+ s9314/eclipse/google-play-services/libproject/google-play-services_lib/libs/google-play-services.jar
+Export-Package: com.gingytech.gtm.app.handprint.Protocol,
+ com.gingytech.gtm.app.hybrid

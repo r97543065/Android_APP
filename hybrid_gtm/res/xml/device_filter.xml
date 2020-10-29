@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GTM5210 C2/C3/C5/C32 -->
+    <usb-device vendor-id="1241" product-id="32776" />
+    
+    <!-- GTM-521XFX2 -->
+    <usb-device vendor-id="8201" product-id="30264" />
+</resources>

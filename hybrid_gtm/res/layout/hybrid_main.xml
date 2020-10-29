@@ -1,0 +1,212 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="10dp" >
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top" >
+
+        <TextView
+            android:id="@+id/textview_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView01"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/getbin"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TM_lastpage"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_round"
+            android:text="扫描分析"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/TM_lastpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/button_round"
+            android:text="上一页" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/image_Fingersmall"
+            android:layout_alignParentLeft="true"
+            android:text="检测影像"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/image_Fingersmall"
+            android:layout_alignParentRight="true"
+            android:text="检测结果"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/image_Fingersmall"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_above="@+id/getbin"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="动物序号：1234"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView01"
+            android:text="畜舍编号：A1"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView04"
+            android:text="畜群编号：202003"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView05"
+            android:text="检验人员：王小明"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView06"
+            android:text="检测日期："
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView03"
+            android:text="检测时间："
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/buttonModuleInfo"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/button_round"
+            android:text="info"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_above="@+id/getbin"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/red" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView02"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="19dp"
+            android:text=""
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/saveFlash"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/setInfo"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/setInfo"
+            android:background="@drawable/button_round"
+            android:text="儲存"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonserver"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/setInfo"
+            android:layout_marginRight="21dp"
+            android:layout_toLeftOf="@+id/setInfo"
+            android:background="@drawable/button_round"
+            android:text="上傳"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonupload"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:background="@drawable/button_round"
+            android:text="照片"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/setInfo"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView05"
+            android:layout_marginRight="14dp"
+            android:layout_toLeftOf="@+id/TextView02"
+            android:background="@drawable/button_round"
+            android:text="曝光"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ResetEXP"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView02"
+            android:layout_alignTop="@+id/setInfo"
+            android:layout_marginLeft="13dp"
+            android:background="@drawable/button_round"
+            android:text="重設"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</TableLayout>

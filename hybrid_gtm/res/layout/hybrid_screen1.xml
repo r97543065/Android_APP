@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/Button08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="口蹄疫" 
+        android:background="@drawable/button_round" />
+        
+
+    <Button
+        android:id="@+id/Button07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="豬瘟" 
+        android:background="@drawable/button_round"/>
+
+    <Button
+        android:id="@+id/Button06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="非洲猪瘟" 
+        android:background="@drawable/button_round"/>
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="环状病毒二型" 
+        android:background="@drawable/button_round"/>
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="猪伪狂犬病" 
+        android:background="@drawable/button_round"/>
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蓝耳病" 
+        android:background="@drawable/button_round"/>
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" 
+        android:background="@drawable/button_round"/>
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" 
+        android:background="@drawable/button_round"/>
+
+    <Button
+        android:id="@+id/SC1_Lastpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上一页" 
+        android:background="@drawable/button_round"/>
+
+</TableLayout>

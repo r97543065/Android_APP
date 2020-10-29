@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InCB</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- for AOSP Build -->
+    <string name="label_Identify">Identify</string>
+    <string name="label_FP_Enroll">FP Enroll</string>
+    <string name="label_FP_Delete">FP Delete</string>
+    <string name="label_Get_1000DPI">Get\n1000DPI</string>
+    <string name="label_Get_500DPI">Get\n500DPI</string>
+    <string name="label_Exit">Exit</string>
+    <string name="label_Safety">Safety</string>
+    <string name="label_ImageSize">ImageSize</string>
+    <string name="label_Communication">Comm</string>
+    <string name="label_Get_Template">Get\nTemplate DB</string>
+    <string name="label_Set_Template">Set\nTemplate DB</string>
+    <string name="label_ModuleInfo">Module Info</string>
+    <string name="label_Get_Image">Get\nImage</string>
+    <string name="label_ContentDescription">description</string>
+    <string name="label_Get_Info">Get\nInfo</string>
+    <string name="label_Set_Info">Set\nInfo</string>
+    <string name="label_Save">Save</string>
+    <string name="label_Reset">Reset</string>
+
+</resources>

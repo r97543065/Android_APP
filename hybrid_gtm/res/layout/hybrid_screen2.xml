@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/Scan_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Main_Exit"
+            android:layout_alignParentLeft="true"
+            android:text="快筛分析"
+            android:background="@drawable/button_round"/>
+
+        <Button
+            android:id="@+id/Data_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Scan_setting"
+            android:layout_alignParentLeft="true"
+            android:text="纪录"
+            android:background="@drawable/button_round"/>
+
+        <Button
+            android:id="@+id/Main_Exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="18dp"
+            android:text="Exit"
+            android:background="@drawable/button_round"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/background" >
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</TableLayout>
